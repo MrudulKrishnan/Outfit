@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.116" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.116" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.116" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/drawable/ic_wave.xml" value="0.1095" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/drawable/round_bg.xml" value="0.1" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_chat_with_designers.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_chat_with_tailor.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_chat_with_user.xml" value="0.1234375" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_custom_send_complaint.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_custom_view_assigned_work.xml" value="0.33" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_custom_view_custom_design.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_custom_view_designs.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_custom_view_materials.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_custom_view_more_images.xml" value="0.22083333333333333" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_custom_view_user_custom_design.xml" value="0.20677083333333332" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_login.xml" value="0.22083333333333333" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_login_design.xml" value="0.18" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_main.xml" value="0.22083333333333333" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_register_design.xml" value="0.33" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_registration.xml" value="0.22083333333333333" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_send_complaint.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_send_custom_design.xml" value="0.22083333333333333" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_send_rating.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_t_home.xml" value="0.22083333333333333" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_tailor_home.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_test.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_update_status.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_user_home.xml" value="0.22083333333333333" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_view_assigned_work.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_view_custom_design.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_view_designs.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_view_materials.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_view_more_images.xml" value="0.22083333333333333" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/activity_view_user_custom_design.xml" value="0.22083333333333333" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/layout/row_message.xml" value="0.22447916666666667" />
+        <entry key="..\:/WORK/PROGRAM FILES/started projects/Outfit_Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.116" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

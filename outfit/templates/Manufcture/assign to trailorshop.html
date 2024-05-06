@@ -1,0 +1,24 @@
+{% extends 'Manufcture/manufacture_index.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/assigntlr">
+  <table width="330" height="133" border="1" class="table table-success table-striped">
+    <tr>
+      <td align="center">Tailor
+        <label>
+        <select name="select" class="bg-transparent">
+            {% for i in val %}
+                <option value="{{ i.id }}" class="bg-transparent">{{ i.Name }}</option>
+            {% endfor %}
+        </select>
+      </label></td>
+    </tr>
+    <tr>
+      <td  align="center"><label>
+        <div>
+          <input type="submit" name="Submit" value="Assign" class="btn btn-success" />
+          </div>
+      </label></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}

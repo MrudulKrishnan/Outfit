@@ -1,0 +1,44 @@
+{% extends 'Manufcture/manufacture_index.html' %}
+{% block body %}
+<form action="add_material_post" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table width="324" height="215" border="1" class="table table-success table-striped">
+    <tr>
+      <td>Material</td>
+      <td><label>
+        <input type="text" name="textfield" required class="bg-transparent"/>
+      </label></td>
+    </tr>
+    <tr>
+      <td>Photo</td>
+      <td><label>
+        <input type="file" name="file" required class="bg-transparent"/>
+      </label></td>
+    </tr>
+    <tr>
+      <td>Price</td>
+      <td><label>
+        <input type="text" name="textfield2" required class="bg-transparent"/>
+      </label></td>
+    </tr>
+    <tr>
+      <td>Stock</td>
+      <td><label>
+         <input type="text" name="textfield3" required class="bg-transparent"/>
+      </label></td>
+    </tr>
+    <tr>
+      <td>Details</td>
+      <td><label>
+        <input type="text" name="textfield4" required class="bg-transparent"/>
+      </label></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><label>
+        <div >
+          <input type="submit" name="Submit" value="Add" class="btn btn-success"/>
+          </div>
+      </label></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}

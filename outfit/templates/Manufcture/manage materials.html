@@ -1,0 +1,40 @@
+{% extends 'Manufcture/manufacture_index.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/searchmanagematerials#about">
+  <table  border="1" class="table table-success table-striped">
+    <tr>
+      <th colspan="6"><label>Material :
+        <input type="text" name="textfield" required class="bg-transparent" value="{{ a }}"/>
+        <input type="submit" name="Submit" value="Search" class="btn btn-outline-success"/>
+      </label></th>
+    </tr>
+    <tr>
+      <th>Material</th>
+      <th>Photo</th>
+      <th>Price</th>
+      <th>Stock</th>
+      <th>Details</th>
+      <th>&nbsp;</th>
+    </tr>
+      {% for i in val %}
+    <tr>
+      <td>{{ i.material }}</td>
+      <td><img src="media/{{ i.photo }}"height="100px" width="100px" alt=""/></td>
+      <td>&nbsp;{{ i.price }}</td>
+      <td>&nbsp;{{ i.stock }}</td>
+      <td>&nbsp;{{ i.details }}</td>
+      <td><p><a href="edit_materials/{{ i.id }}#about" class="btn btn-outline-primary">Edit</a></p>
+      <p><a href="delete_materials/{{ i.id }}" class="btn btn-outline-danger">Delete</a></p></td>
+    </tr>
+        {% endfor %}
+    <tr>
+      <td colspan="6"  align="center">
+          <div>
+              <a href="addmaterial#about" class="btn btn-success">ADD NEW</a>
+          </div>
+      </td>
+    </tr>
+
+  </table>
+</form>
+{% endblock %}

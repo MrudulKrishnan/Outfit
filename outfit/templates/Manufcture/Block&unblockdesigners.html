@@ -1,0 +1,44 @@
+{% extends 'Manufcture/manufacture_index.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="searchdesigners#about">
+  <table width="485" height="260" border="1" class="table table-success table-striped">
+    <tr>
+      <th colspan="8"><label> Name :
+        <input type="text" name="textfield" required value="{{ a }}" class="bg-transparent"/>
+      </label>
+        <label>
+        <input type="submit" name="Submit" value="Search" class="btn btn-outline-success" />
+      </label></th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Phone</th>
+      <th>Address</th>
+      <th>Email</th>
+      <th>Experience</th>
+      <th>Certificate</th>
+      <th>&nbsp;Status</th>
+    </tr>
+      {% for i in val %}
+    <tr>
+      <td>{{ i.Name }}</td>
+      <td>{{ i.Gender }}</td>
+      <td>&nbsp;{{ i.Phone }}</td>
+      <td>{{ i.Place }}<br>
+      {{ i.Post }}<br>
+      {{ i.Pin }}</td>
+      <td>{{ i.Email }}</td>
+      <td>{{ i.Experience }}</td>
+      <td>{{ i.Certificate }}</td>
+
+        {% if i.LOGIN.type == "designers"%}
+            <td><a href="/blockdesigners/{{ i.LOGIN.id }}" class="btn btn-outline-danger">Block</a></td></p>
+          {%  elif i.LOGIN.type == "blocked" %}
+      <p><td><a href="unblockdesigners/{{ i.LOGIN.id }}" class="btn btn-outline-primary">Unblock</a></p></td>
+    {% endif %}
+    </tr>
+    {% endfor %}
+  </table>
+</form>
+{% endblock %}

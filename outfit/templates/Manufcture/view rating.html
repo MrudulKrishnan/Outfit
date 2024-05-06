@@ -1,0 +1,30 @@
+{% extends 'Manufcture/manufacture_index.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="searchviewrating#about">
+  <table width="494" height="251" border="1" class="table table-success table-striped">
+    <tr>
+      <th colspan="4">Date
+        <label>
+        <input type="date" name="textfield" required class="bg-transparent" value="{{ a }}"/>
+      </label>
+        <label>
+        <input type="submit" name="Submit" value="Search" class="btn btn-outline-success"/>
+      </label></th>
+    </tr>
+    <tr>
+      <th>Users</th>
+      <th>Reveiws</th>
+      <th>Rating</th>
+      <th>Date</th>
+    </tr>
+      {% for i in val %}
+    <tr>
+      <td>{{ i.USER.Name }}</td>
+      <td>{{ i.Reviews }}&nbsp;</td>
+      <td>&nbsp;{{ i.rating }}</td>
+      <td>&nbsp;{{ i.Date }}</td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+{% endblock %}

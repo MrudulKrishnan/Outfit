@@ -1,0 +1,48 @@
+{% extends 'Manufcture/manufacture_index.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="searchdesigners#about">
+  <table width="418" height="235" border="1" class="table table-success table-striped">
+    <tr>
+      <th colspan="8"><label>Name   :
+        <input type="text" name="textfield" required class="bg-transparent" value="{{ a }}"/>
+      </label>        <label>
+        <input type="submit" name="Submit" value="Search" class="btn btn-outline-success"/>
+        </label></th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Address</th>
+      <th>Phone</th>
+      <th>Email</th>
+      <th>Expirence</th>
+      <th>Certificate</th>
+      <th>&nbsp;</th>
+    </tr>
+      {% for i in val %}
+    <tr>
+      <td rowspan="2">{{ i.Name }}</td>
+      <td rowspan="2">{{ i.Gender }}</td>
+      <td rowspan="2">&nbsp;{{ i.Place }}<br>
+      {{ i.Post }}<br>
+      {{ i.Pin }}</td>
+      <td rowspan="2">{{ i.Phone }}</td>
+      <td rowspan="2">{{ i.Email }}</td>
+      <td rowspan="2">{{ i.Experience }}</td>
+{#      <td rowspan="2">{{ i.Experience }}</td>#}
+      <td rowspan="2"><img src="{{ i.Certificate.url }}"width="100"height="100" alt=""/></td>
+{#      <td rowspan="2">{{ i.Certificate}}<a href="#">Download</a></td>#}
+      <td><a href="editdesigners/{{ i.id }}#about" class="btn btn-outline-primary">Edit</a></td>
+    </tr>
+    <tr>
+      <td><a href="deletedesigners/{{ i.id }}" class="btn btn-outline-danger">Delete</a></td>
+    </tr>
+            {% endfor %}
+
+    <tr>
+      <td colspan="8"><div align="center"><a href="adddesigners#about" class="btn btn-success">Add New</a></div></td>
+    </tr>
+  </table>
+  <p>&nbsp; </p>
+</form>
+{% endblock %}
